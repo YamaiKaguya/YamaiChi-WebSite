@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#loginform {
+  outline: none;
+  background-color: aqua;
+  border: 1px solid black;
+  width: 30%;
+  height: 30vh;
+  position: absolute;
+  text-align: center;
+  padding-top: 10%;
+  margin-top: 10%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  min-width: 50px;
+  max-width: 300px;
+}

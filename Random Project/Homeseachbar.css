@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+h1 {
+  margin: 0 0 10px 0;
+  padding: 0px;
+  width: 500px;
+  color:black;
+  font-size: 24px;
+}
+
+.search {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  display: inline-block;
+  font-size: 24px;
+  outline: none;
+  border: 2px solid  rgba(240, 154, 168, 1);
+}
+
+input[type="text"] {
+  background: rgba(255, 255, 255, .5);
+  width: 400px;
+  height: 55px;
+  padding: 0 20px;
+  border-radius: 25px 0 0 25px; 
+  font-family: 'Staatliches', cursive;
+}
+
+input[type="submit"] {
+  background: rgba(252, 132, 164, .8);
+  width: 75px;
+  height: 55px;
+  padding: 0 8px 0 0 ;
+  border-radius: 0 25px 25px 0; 
+  font-size: 24px;
+  cursor: pointer;
+  font-family: 'Staatliches';
+  color: rgb(71, 71, 71);
+}
+
+form [type="submit"]:hover {
+  background-color: rgb(255, 94, 121);
+  transition: .5s;
+}
+
+form [type="text"]:hover {
+  background-color: white;
+  transition: .5s;
+}

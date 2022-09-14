@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* bebas */
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/*staatliches*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-image: url(Images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 88px;
+  background-color: rgb(239, 96, 121);
+  border-bottom: 2px solid rgba(223, 223, 223, .5);
+  position: fixed;
+  z-index: 1;
+}
+
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 15px 10px 0 0;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+  padding: 15px;
+}
+nav ul li:hover {
+  background-color: none;
+  transition: .5s;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+
+
+/* #ICON {
+  width: 80px;
+  height: 80px;
+  margin-top: 3px;
+  margin-left: 5px;
+  border-radius: 7px;
+  float: left;
+} */
+
+#websitename {
+  float: left;
+  font-family: 'Staatliches', cursive;
+  background-color: none;
+  margin-top: 23px;
+  margin-left: 30px;
+  font-size: 40px;
+}
+
+/*------------------------------------------------------------Footer------------------------------------------------------------*/
+
+  /* #facebook {
+  width: 45px;
+  height: 45px;
+}
+  #instagram {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 6px;
+}
+  #twitter {
+  width: 47px;
+  height: 47px;
+}
+
+  #Image li {
+  display: inline-block;
+} */
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+#copyrights {  
+  margin: 0;
+  background-color: #ef6079ff; /*rgba(255, 166, 181, 0.9) */
+  height: 130px;
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  border-top: 3px solid rgba(223, 223, 223, .9);
+  border-bottom: 3px solid rgba(223, 223, 223, .9);
+}
+
+#linkdecor {
+  text-decoration: none; 
+  text-shadow: 0 0 5px black;
+}
+
+h5 a:visited {
+  text-decoration: none;
+  color: white; 
+}
+
+h5 a:hover {
+  color: rgba(255, 213, 220, .9);
+}
+
+#Follow {
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.icons svg {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin: 8px 0 0 0;
+  /* color: ; */
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 650px) {
+  #websitename {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  nav ul li {
+    font-size: 20px;
+    margin: 10px;
+    margin-right: 10px;
+  }
+  nav ul {
+    background-color: #79DAE8;
+    width: 100vw;
+    margin-right: 0px;
+    margin-top: 20px;
+    text-align: center;
+    border: 0px solid black;
+  }
+  header {
+  border: 0px solid;
+  }
+
+}

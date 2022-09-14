@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* staatliches */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+/* bebas */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* oswald */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F65A83;
+/* 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+*/
+}
+
+/*---------------------------------------------------------FOOTER--------------------------------------------------------------*/
+
+#facebook {
+  width: 45px;
+  height: 45px;
+}
+#instagram {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 6px;
+
+}
+#twitter {
+  width: 47px;
+  height: 47px;
+}
+
+footer {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
+
+/*---------------------------------------------------------LINKS--------------------------------------------------------------*/
+
+a:active, a:visited {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+#container {
+  border: 1px solid rgba(0, 0, 0, .4);
+  width: 30vw;
+  padding: 100px 0 100px 0;
+  margin-top: 5em;
+  background-color: white;
+  margin-left: 35%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#loginusing, #pass, #mail {
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#forgot {
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#createaccount {
+  font-family: 'Oswald', sans-serif;
+  font-size:16px;
+  margin-bottom: 4em;
+  margin-top: 5px;
+}
+
+input {
+  outline: none;
+}
+
+#loginhere {
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  margin-bottom: 2em;
+}
+
+#emailpassword {
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: left;
+  margin-left: 100px;
+}
+
+#inputlogin {
+  border: 2px solid rgb(156, 155, 155);
+  border-top: none;
+  border-left: none;
+  border-right: none;                      /*idunnowhy*/
+  width: 300px;
+  height: 30px;
+  background-color: white;
+}
+
+#submit {
+  width: 300px;
+  /* padding: 5px;
+  border: 2px solid rgb(156, 155, 155);
+  border-radius: 20px; */
+  background-color: none; 
+  color: black;
+  font-size: 20px;
+  font-family: 'Staatliches';
+  cursor: pointer;
+}
+
+form [type="submit"] {
+  border: 1px solid black;
+  border-radius: 2px;
+  padding:5px;
+}
+
+form [type="submit"]:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+
+
+
+/*---------------------------------------------------------RESPONSIVE--------------------------------------------------------------*/
+
+@media only screen and (max-width: 420px) {
+  #mail, #pass {
+    margin-left: -50px;
+  }
+  #forgot {
+    margin-right: -55px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  #mail, #pass {
+    margin-left: -30px;
+  }
+  #forgot {
+    margin-right: -35px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  #container { 
+    width: auto;
+    height: 700px;
+    margin-left: px;
+    margin: 10px;
+    margin-top: 100px;
+  }
+}
+
+
